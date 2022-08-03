@@ -12,5 +12,6 @@ public class Soma {
         number2 = input.nextInt();
         sum = number1 + number2;
         System.out.printf("Sum is %d\n", sum);
+        input.close();
     }
 }
